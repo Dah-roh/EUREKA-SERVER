@@ -1,14 +1,17 @@
 eureka:
   instance:
-    hostname: ${application.name}.herokuapp.com
+    hostname: ${spring.application.name}.herokuapp.com
   client:
     registerWithEureka: true
     fetchRegistry: true
     serviceUrl:
-      defaultZone: ${EUREKA_URL}/eureka/
+      defaultZone: ${application.eureka.url}/eureka/
 
 spring:
   application:
-    name: eureka-server
+    name: "eureka-service"
 
+application:
+  eureka:
+    url: https://reloadly-eureka-service.herokuapp.com/
 
