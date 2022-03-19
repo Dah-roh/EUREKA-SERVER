@@ -13,5 +13,5 @@ spring:
 
 application:
   eureka:
-    url: https://reloadly-eureka-service.herokuapp.com/
+    url: https://reloadly-eureka-service.herokuapp.com
 
