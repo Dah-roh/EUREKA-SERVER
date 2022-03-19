@@ -1,0 +1,14 @@
+eureka:
+  instance:
+    hostname: ${APP_NAME}.herokuapp.com
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: ${EUREKA_URL}
+
+server:
+  port: 8761
+APP_NAME:
+  eureka-service
+
