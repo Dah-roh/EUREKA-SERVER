@@ -11,4 +11,7 @@ server:
   port: 8761
 APP_NAME:
   eureka-service
+EUREKA_URL:
+  ${APP_NAME}.herokuapp.com
+
 
