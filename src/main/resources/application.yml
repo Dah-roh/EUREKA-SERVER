@@ -5,11 +5,7 @@ eureka:
     registerWithEureka: true
     fetchRegistry: true
     serviceUrl:
-      defaultZone: ${EUREKA_PEER_URL}/eureka/
-spring:
-  config:
-    activate:
-      on-profile: peer
+      defaultZone: ${EUREKA_URL}/
 
 server:
   port: 8761
