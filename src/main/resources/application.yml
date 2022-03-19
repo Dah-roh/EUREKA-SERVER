@@ -1,6 +1,6 @@
 eureka:
   instance:
-    hostname: ${APP_NAME}.herokuapp.com
+    hostname: ${application.name}.herokuapp.com
   client:
     registerWithEureka: true
     fetchRegistry: true
@@ -9,5 +9,8 @@ eureka:
 
 spring:
   application:
-    name: eureka-server
+    name: ${application.name}=eureka-server
+
+application:
+  name: eureka-service
 
