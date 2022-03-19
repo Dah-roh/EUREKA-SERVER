@@ -5,11 +5,11 @@ eureka:
     registerWithEureka: true
     fetchRegistry: true
     serviceUrl:
-      defaultZone: ${EUREKA_URL}/eureka
+      defaultZone: ${EUREKA_URL}/eureka/
 
 server:
   port: 8761
-APP_NAME:
-  reloadly-eureka-service
-
+spring:
+  application:
+    name: eureka-server
 
