@@ -6,8 +6,7 @@ eureka:
     fetchRegistry: true
     serviceUrl:
       defaultZone: ${EUREKA_URL}/eureka
-spring:
-  application:
+application:
     name: eureka-service
 server:
   port: 8761
