@@ -10,6 +10,6 @@ eureka:
 server:
   port: 8761
 APP_NAME:
-  eureka-service
+  reloadly-eureka-service
 
 
