@@ -9,8 +9,6 @@ eureka:
 
 spring:
   application:
-    name: ${application.name}=eureka-server
+    name: eureka-server
 
-application:
-  name: eureka-service
 
