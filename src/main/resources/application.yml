@@ -9,6 +9,8 @@ eureka:
 
 server:
   port: 8761
-spring:
-  application:
-    name: eureka-service
+APP_NAME:
+  eureka-service
+EUREKA_URL:
+  reloadly-eureka-service.herokuapp.com
+
