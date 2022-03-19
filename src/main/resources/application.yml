@@ -11,7 +11,5 @@ server:
   port: 8761
 APP_NAME:
   eureka-service
-EUREKA_URL:
-  https://reloadly-eureka-service.herokuapp.com/
 
 
