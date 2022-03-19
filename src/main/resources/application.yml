@@ -12,6 +12,6 @@ server:
 APP_NAME:
   eureka-service
 EUREKA_URL:
-  ${APP_NAME}.herokuapp.com
+  https://reloadly-eureka-service.herokuapp.com/
 
 
