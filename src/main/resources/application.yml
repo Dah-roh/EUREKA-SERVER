@@ -2,7 +2,7 @@ eureka:
   instance:
     hostname: ${APP_NAME}.herokuapp.com
   client:
-    registerWithEureka: false
+    registerWithEureka: true
     fetchRegistry: true
     serviceUrl:
       defaultZone: ${EUREKA_PEER_URL}/eureka/
