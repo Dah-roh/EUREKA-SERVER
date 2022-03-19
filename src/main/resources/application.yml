@@ -7,8 +7,6 @@ eureka:
     serviceUrl:
       defaultZone: ${EUREKA_URL}/eureka/
 
-server:
-  port: 8761
 spring:
   application:
     name: eureka-server
