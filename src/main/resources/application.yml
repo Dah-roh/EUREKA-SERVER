@@ -1,12 +1,13 @@
 spring:
-  profiles: peer
+  application:
+    name: eureka
+
+server:
+  port: 8761
+
 eureka:
   instance:
-    hostname: ${APP_NAME}.herokuapp.com
+    prefer-ip-address: false
   client:
-    registerWithEureka: false
-    fetchRegistry: true
-    serviceUrl:
-      defaultZone: ${EUREKA_PEER_URL}/eureka/
-
-
+    register-with-eureka: false
+    fetch-registry: false
