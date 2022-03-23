@@ -8,7 +8,5 @@ eureka:
     fetchRegistry: true
     serviceUrl:
       defaultZone: ${EUREKA_PEER_URL}/eureka/
-spring:
-  application:
-    name: eureka-service
+
 
