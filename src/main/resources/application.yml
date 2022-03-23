@@ -1,8 +1,13 @@
+spring:
+  profiles: peer
 eureka:
+  instance:
+    hostname: ${APP_NAME}.herokuapp.com
   client:
-    registerWithEureka: false
-    fetchRegistry: false
-
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: ${EUREKA_PEER_URL}/eureka/
 spring:
   application:
     name: eureka-service
